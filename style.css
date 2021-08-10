@@ -14,7 +14,7 @@ h3 {
 
 button {
     background-color: #ffffff;
-    border: 2px solid #b51e23;
+    border: 1px solid #b51e23;
     border-radius: 5px;
     width: 60px;
     height: 60px;
@@ -24,6 +24,11 @@ button {
 button:hover {
     font-weight: bold !important;
     border: 2px solid #3d76e0;
+}
+
+button:focus {
+    font-weight: bold !important;
+    border: 3px solid #b51e23;
 }
 
 img {
