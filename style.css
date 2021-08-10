@@ -1,0 +1,31 @@
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+div, h3 {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+button {
+    background-color: #ffffff;
+    border: 2px solid #b51e23;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+}
+
+button:hover {
+    font-weight: bold !important;
+    border: 2px solid #3d76e0;
+}
+
+img {
+    height: 500px;
+}
